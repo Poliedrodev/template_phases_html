@@ -1,13 +1,13 @@
-.css_01_titulo1 {
-  font-family: $fontTitle;
-  font-weight: 800;
-  text-align: left;
-  font-size: 2rem;
+.css_02_texto_destaque {
+  display: block;
   color: $preto;
-  margin: 40px 0px 0px 0px;
-  padding: 0px;
+  text-align: left;
+  font-size: 22px;
+  font-family: $fontName;
+  font-weight: 300;
+  margin-top: 32px;
+  line-height: 1.5em;
 
-  /* Variações de cores */
   &.artes {
     .text {
       color: $art_cor1;

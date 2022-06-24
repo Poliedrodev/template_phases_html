@@ -4073,46 +4073,10 @@
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
               "values": {
-                "0": "biologia"
-              }
-            },
-            "value": "biologia"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
                 "0": "ciencias"
               }
             },
             "value": "ciencias"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "educacao_fisica"
-              }
-            },
-            "value": "educacao_fisica"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "filosofia"
-              }
-            },
-            "value": "filosofia"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "fisica"
-              }
-            },
-            "value": "fisica"
           },
           {
             "caption": {
@@ -4127,46 +4091,10 @@
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
               "values": {
-                "0": "gramatica"
-              }
-            },
-            "value": "gramatica"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
                 "0": "historia"
               }
             },
             "value": "historia"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "integrado"
-              }
-            },
-            "value": "integrado"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "inter_de_texto"
-              }
-            },
-            "value": "inter_de_texto"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "lingua_espanhola"
-              }
-            },
-            "value": "lingua_espanhola"
           },
           {
             "caption": {
@@ -4190,24 +4118,6 @@
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
               "values": {
-                "0": "linguagens"
-              }
-            },
-            "value": "linguagens"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "literatura"
-              }
-            },
-            "value": "literatura"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
                 "0": "matematica"
               }
             },
@@ -4217,37 +4127,10 @@
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
               "values": {
-                "0": "musica"
+                "0": "ciencias"
               }
             },
-            "value": "musica"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "producao_de_texto"
-              }
-            },
-            "value": "producao_de_texto"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "quimica"
-              }
-            },
-            "value": "quimica"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "sociologia"
-              }
-            },
-            "value": "sociologia"
+            "value": "ciencias"
           }
         ]
       },

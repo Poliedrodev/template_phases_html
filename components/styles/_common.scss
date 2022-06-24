@@ -13,9 +13,9 @@ $mapa: #143F70;
 
 /* Variações de cores */
 /* Artes */
-$art_cor1: #64428C;
-$art_cor2: #3F1F71;
-$art_cor3: #B9A9CB;
+$art_cor1: #EC008C;
+$art_cor2: #FD97CC;
+$art_cor3: #F7C8E4;
 $art_cor4: #dfdaea;
 
 /* Biologia */
@@ -25,9 +25,9 @@ $bio_cor3: #ABD0A7;
 $bio_cor4: #E3F0E2;
 
 /* Ciências */
-$cie_cor1: #45973D;
-$cie_cor2: #306E2B;
-$cie_cor3: #ABD0A7;
+$cie_cor1: #00A651;
+$cie_cor2: #7FCA9F;
+$cie_cor3: #C8E9D8;
 $cie_cor4: #E3F0E2;
 
 /* Educação Física */
@@ -49,9 +49,9 @@ $fis_cor3: #8CCDD2;
 $fis_cor4: #D9EEF0;
 
 /* Geografia */
-$geo_cor1: #D85509;
-$geo_cor2: #9E2705;
-$geo_cor3: #EDB290;
+$geo_cor1: #2E3192;
+$geo_cor2: #9792C1;
+$geo_cor3: #D1D1E5;
 $geo_cor4: #F9E5DA;
 
 /* Gramática */
@@ -61,9 +61,9 @@ $gra_cor3: #E59798;
 $gra_cor4: #f7dedf;
 
 /* História */
-$his_cor1: #951B81;
-$his_cor2: #6A0F5A;
-$his_cor3: #CF98C6;
+$his_cor1: #F7941D;
+$his_cor2: #FBC98D;
+$his_cor3: #FAE6CD;
 $his_cor4: #EFDDEC;
 
 /* Integrado */
@@ -92,9 +92,9 @@ $ing_cor3: #8CCDD2;
 $ing_cor4: #d9f0ef;
 
 /* Língua Portuguesa */
-$por_cor1: #c9252c;
-$por_cor2: #96171a;
-$por_cor3: #E59798;
+$por_cor1: #ED1C24;
+$por_cor2: #F68D91;
+$por_cor3: #F8CDCF;
 $por_cor4: #f7dedf;
 
 /* Linguagens */
@@ -110,9 +110,9 @@ $lit_cor3: #E59798;
 $lit_cor4: #f7dedf;
 
 /* Matemática */
-$mat_cor1: #1961AC;
-$mat_cor2: #033878;
-$mat_cor3: #97B7D9;
+$mat_cor1: #92278F;
+$mat_cor2: #CA8CC0;
+$mat_cor3: #E5CFE5;
 $mat_cor4: #d0e1f0;
 
 /* Música */
@@ -164,10 +164,75 @@ $seg_hum_cor2: #208F6D;
 $seg_hum_cor3: #D7EDE3;
 $seg_hum_cor4: #EEF7F3;
 
+/* Novas Variáveis */
+/* Boxes */
+$voce_sabia_cor1: #33C6F3;
+$voce_sabia_cor2: #D6F4FD;
+
+$conheca_artista_cor1: #FF7D23;
+$conheca_artista_cor2: #FFE5D3;
+
+$get_ready_cor1: #FF7D23;
+$get_ready_cor2: #FFE5D3;
+
+$palavra_texto_cor1: #85C240;
+$palavra_texto_cor2: #E7F3D9;
+
+$mapeando_cor1: #85C240;
+$mapeando_cor2: #E7F3D9;
+
+$sticker_time_cor1: #85C240;
+$sticker_time_cor2: #E7F3D9;
+
+$brincadeira_cor1: #5394A6;
+$brincadeira_cor2: #DCEAED;
+
+$saber_mais_cor1: #F7C832;
+$saber_mais_cor2: #FEF4D6;
+
+$aplicando_ciencia_cor1: #F7C832;
+$aplicando_ciencia_cor2: #FEF4D6;
+
+$thinking_time_cor1: #F7C832;
+$thinking_time_cor2: #FEF4D6;
+
+$familia_escola_cor1: #33BAA0;
+$familia_escola_cor2: #D6F1EC;
+
+$reading_time_cor1: #33BAA0;
+$reading_time_cor2: #D6F1EC;
+
+
+/* Seções */
+$leitura_inicial: #0071BF;
+
+$interacao: #F7C832;
+$criando_arte: #F7C832;
+$lessons: #F7C832;
+
+$conecte_assunto: #85C240;
+$caracterizando: #85C240;
+$genero_textual: #85C240;
+
+$vamos_descobrir: #E9745A;
+
+$ideias_construcao: #33C6F3;
+$matematica_dia: #33C6F3;
+$voce_historiador: #33C6F3;
+
+$construindo_conhecimentos: #AD46B0;
+
+$maos_obra: #FF7D23;
+
+$oque_aprendi: #684198;
+$closing_up: #684198;
+
 /* Outros */
-$fontName: 'Montserrat';
-$fonteSerifa: 'Noticia Text';
-$defaultFontSize: 14px;
+$fontName: 'Red Hat Text', arial;
+$fontTitle: 'Rubik', arial;
+$fontSerifa: 'Roboto Slab' sans-serif;
+$fontHandwrite: 'Mali', sans-serif;
+$defaultFontSize: 22px;
 $defaultFontWeight: 300;
 $screen-sm-max: 991px;
 $speed: 0.2s;
@@ -176,8 +241,8 @@ $max-width: 860px;
 $phone-max-width: 481px;
 
 // Question
-$fontSizeQuestion: 18px;
-$fontSizeIndiceQuestion: 18px;
+$fontSizeQuestion: 22px;
+$fontSizeIndiceQuestion: 22px;
 
 // tirando eslito padrão
 ol,
@@ -185,8 +250,8 @@ ul,
 li,
 p,
 h1 {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /* Mixin's helpers, more info: http://sass-lang.com/guide#topic-6*/
@@ -204,6 +269,7 @@ h1 {
 /* Imports the style from the google fonts cdn */
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@500&family=Red+Hat+Text:wght@300;500;600&family=Roboto+Slab:wght@300;700&family=Rubik:wght@400;800;900&display=swap');
 
 /* Article view style */
 html,
