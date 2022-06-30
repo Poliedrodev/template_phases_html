@@ -3,18 +3,20 @@
   font-weight: 500;
   font-size: 28px;
   color: $preto;
-
   /* Características do componente */
   display: block;
   margin-top: 20px;
   padding: 0 0px;
   margin-bottom: 0px;
-  line-height: 1.5em;
+
+  h3 {
+    margin: 0;
+  }
 
   .line_titulo3 {
     position: relative;
     width: 100%;
-    border-bottom: 3px dashed $preto;
+    border-bottom: 3px dashed;
   }
 
   .line_titulo3::after {
@@ -22,7 +24,6 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: $preto;
     top: 0;
     right: 0;
   }

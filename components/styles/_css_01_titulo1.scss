@@ -3,51 +3,43 @@
   font-weight: 800;
   text-align: left;
   font-size: 2rem;
-  color: $preto;
   margin: 40px 0px 0px 0px;
   padding: 0px;
 
   /* Variações de cores */
   &.artes {
-    .text {
-      color: $art_cor1;
-    }
+
+    color: $art_cor1;
   }
 
   &.ciencias {
-    .text {
-      color: $cie_cor1;
-    }
+
+    color: $cie_cor1;
   }
 
   &.geografia {
-    .text {
-      color: $geo_cor1;
-    }
+
+    color: $geo_cor1;
   }
 
   &.historia {
-    .text {
-      color: $his_cor1;
-    }
+
+    color: $his_cor1;
   }
 
   &.lingua_inglesa {
-    .text {
-      color: $ing_cor1;
-    }
+
+    color: $ing_cor1;
   }
 
   &.lingua_portuguesa {
-    .text {
-      color: $por_cor1;
-    }
+
+    color: $por_cor1;
   }
 
   &.matematica {
-    .text {
-      color: $mat_cor1;
-    }
+
+    color: $mat_cor1;
   }
 
 }

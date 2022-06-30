@@ -1,4 +1,4 @@
-.css_02_texto_destaque {
+.css_02_texto_destaque2 {
   display: block;
   color: $preto;
   text-align: left;
@@ -9,45 +9,44 @@
   line-height: 1.5em;
 
   &.artes {
-    .text {
-      color: $art_cor1;
-    }
+    color: $art_cor1;
+
   }
 
   &.ciencias {
-    .text {
-      color: $cie_cor1;
-    }
+
+    color: $cie_cor1;
   }
+
 
   &.geografia {
-    .text {
-      color: $geo_cor1;
-    }
+
+    color: $geo_cor1;
   }
+
 
   &.historia {
-    .text {
-      color: $his_cor1;
-    }
+
+    color: $his_cor1;
   }
+
 
   &.lingua_inglesa {
-    .text {
-      color: $ing_cor1;
-    }
+
+    color: $ing_cor1;
   }
+
 
   &.lingua_portuguesa {
-    .text {
-      color: $por_cor1;
-    }
+
+    color: $por_cor1;
   }
 
+
   &.matematica {
-    .text {
-      color: $mat_cor1;
-    }
+
+    color: $mat_cor1;
   }
+
 
 }

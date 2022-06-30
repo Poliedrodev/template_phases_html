@@ -1,0 +1,44 @@
+.dig_mapa {
+    border-radius: 16px;
+    background-color: #D6F1EC;
+    padding: 4px;
+
+    .dig_mapa_section {
+        margin: 0;
+        font-family: $fontName;
+        font-size: 1.375rem;
+        text-align: left;
+        overflow: hidden;
+        border-radius: 16px;
+        position: relative;
+        background-color: white;
+
+        .image_phases {
+            margin: 0 auto;
+            border-radius: 16px;
+        }
+    }
+
+    .dig_mapa_section::first-child {
+        margin-top: 0;
+    }
+
+    .dig_mapa_title {
+        position: relative;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 16px 24px;
+        border-radius: 16px 16px 0 0;
+
+        .mapa_title {
+            font-family: $fontName;
+            font-weight: bold;
+            font-size: 27px;
+            color: #000000;
+
+        }
+    }
+
+}

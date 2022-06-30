@@ -3,7 +3,7 @@
 .container_grupo_checkbox_lado_a_lado {
   margin-top: 15px;
 
- 
+
   &.artes {
     .container input:checked~.checkmark {
       background-color: $art_cor1;
@@ -240,7 +240,7 @@
     }
 
     .textradio_inline {
-      font-family: 'Noticia Text';
+      font-family: $fontName;
       font-weight: 400;
       font-size: 16px;
       color: #000000;

@@ -681,7 +681,8 @@
       "icon": "icons/components/icon_01_titulo3.svg",
       "label": "01 Título 3",
       "properties": [
-        "style",
+        "style_section",
+        "style_boxes",
         "text-align",
         "letter-spacing",
         "line-height"
@@ -694,6 +695,22 @@
     },
     {
       "name": "css_01_titulo4",
+      "icon": "icons/components/icon_01_titulo4.svg",
+      "label": "01 Título 4",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
+      "name": "css_01_titulo5",
       "icon": "icons/components/icon_01_titulo4.svg",
       "label": "01 Título 4",
       "properties": [
@@ -770,7 +787,7 @@
     {
       "name": "css_02_texto_citado_fonte",
       "icon": "icons/components/icon_02_texto_citado_fonte.svg",
-      "label": "02 Texto Citado Fonte",
+      "label": "Citado Fonte",
       "properties": [
         "style",
         "letter-spacing",
@@ -785,7 +802,7 @@
     {
       "name": "css_02_texto_citado_titulo",
       "icon": "icons/components/icon_02_texto_citado_titulo.svg",
-      "label": "02 Texto Citado Título",
+      "label": "Citado Título",
       "properties": [
         "style",
         "text-align",
@@ -801,7 +818,7 @@
     {
       "name": "css_02_texto_citado",
       "icon": "icons/components/icon_02_texto_citado.svg",
-      "label": "02 Texto Citado",
+      "label": "Citado",
       "properties": [
         "drop-capital",
         "style",
@@ -818,7 +835,7 @@
     {
       "name": "css_02_texto_definicao",
       "icon": "icons/components/icon_02_texto_definicao.svg",
-      "label": "02 Texto Definição",
+      "label": "Definição",
       "properties": [
         "style",
         "text-align",
@@ -834,7 +851,39 @@
     {
       "name": "css_02_texto_destaque",
       "icon": "icons/components/icon_02_texto_destaque.svg",
-      "label": "02 Texto Destaque 1",
+      "label": "Destaque 1",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
+      "name": "css_02_texto_destaque1",
+      "icon": "icons/components/icon_02_texto_destaque.svg",
+      "label": "Destaque 1",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
+      "name": "css_02_texto_destaque2",
+      "icon": "icons/components/icon_02_texto_destaque.svg",
+      "label": "Destaque 2",
       "properties": [
         "style",
         "text-align",
@@ -850,7 +899,7 @@
     {
       "name": "css_02_texto_geral",
       "icon": "icons/components/icon_02_texto_geral1.svg",
-      "label": "02 Texto Geral",
+      "label": "Geral",
       "properties": [
         "style",
         "text-align",
@@ -866,7 +915,7 @@
     {
       "name": "css_02_texto_geral1",
       "icon": "icons/components/icon_02_texto_geral1.svg",
-      "label": "02 Texto Geral 1",
+      "label": "Geral 1",
       "properties": [
         "style",
         "text-align",
@@ -882,7 +931,7 @@
     {
       "name": "css_02_texto_geral2",
       "icon": "icons/components/icon_02_texto_geral2.svg",
-      "label": "02 Texto Geral 2",
+      "label": "Geral 2",
       "properties": [
         "style",
         "text-align",
@@ -898,7 +947,7 @@
     {
       "name": "css_02_texto_geral3",
       "icon": "icons/components/icon_02_texto_geral3.svg",
-      "label": "02 Texto Geral 3",
+      "label": "Geral 3",
       "properties": [
         "drop-capital",
         "style",
@@ -915,7 +964,7 @@
     {
       "name": "css_02_texto_glossario_titulo",
       "icon": "icons/components/icon_02_texto_glossario_titulo.svg",
-      "label": "02 Texto Glossário Título",
+      "label": "Glossário Título",
       "properties": [
         "style",
         "text-align",
@@ -931,7 +980,7 @@
     {
       "name": "css_02_texto_glossario",
       "icon": "icons/components/icon_02_texto_glossario.svg",
-      "label": "02 Texto Glossário",
+      "label": "Glossário",
       "properties": [
         "style",
         "text-align",
@@ -948,7 +997,7 @@
     {
       "name": "css_02_texto_item",
       "icon": "icons/components/icon_02_texto_item.svg",
-      "label": "02 Texto Item",
+      "label": "Item",
       "properties": [
         "style",
         "text-align",
@@ -964,7 +1013,7 @@
     {
       "name": "css_02_texto_manuscrito",
       "icon": "icons/components/icon_02_texto_manuscrito.svg",
-      "label": "02 Texto Manuscrito",
+      "label": "Manuscrito",
       "properties": [
         "style",
         "text-align",
@@ -980,7 +1029,7 @@
     {
       "name": "css_02_texto_vocabulario",
       "icon": "icons/components/icon_02_texto_vocabulario.svg",
-      "label": "02 Texto Vocabulário",
+      "label": "Vocabulário",
       "properties": [
         "style",
         "text-align",
@@ -1719,6 +1768,84 @@
           "stripStylingOnPaste": true
         }
       }
+    },
+    {
+      "name": "dig_secao",
+      "icon": "icons/components/container.svg",
+      "label": "Dig Seção",
+      "properties": [
+        "style_section",
+        "style",
+        "style_lessons",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
+      "name": "dig_box_01",
+      "icon": "icons/components/container.svg",
+      "label": "Dig Box 01",
+      "allowNesting": "yes",
+      "properties": []
+    },
+    {
+      "name": "dig_box_02",
+      "icon": "icons/components/container.svg",
+      "label": "Dig Box 02",
+      "allowNesting": "yes",
+      "properties": []
+    },
+    {
+      "name": "dig_box_03",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "label": "Dig box 03",
+      "properties": [
+        "style",
+        "position"
+      ]
+    },
+    {
+      "name": "dig_box_04",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "label": "Dig box 04",
+      "properties": [
+        "style_box_00",
+        "position",
+        "background-color"
+      ]
+    },
+    {
+      "name": "dig_box_10",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "label": "Dig box 10",
+      "properties": [
+        "style_section"
+      ]
+    },
+    {
+      "name": "dig_box_11",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "label": "Dig box 11",
+      "properties": []
+    },
+    {
+      "name": "dig_box_mapa",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "label": "Dig Mapa",
+      "properties": [
+        "position"
+      ]
     },
     {
       "name": "css_06_boxe_bullet",
@@ -2693,6 +2820,42 @@
       }
     },
     {
+      "name": "image_phases",
+      "icon": "icons/components/image.svg",
+      "label": {
+        "key": "COMPONENT_IMAGE2_LABEL"
+      },
+      "properties": [
+        "position",
+        "width",
+        "style",
+        "inside-caption",
+        "text-align",
+        "letter-spacing",
+        "line-height",
+        {
+          "name": "edit-image",
+          "directiveKey": "image"
+        }
+      ],
+      "directiveOptions": {
+        "caption": {
+          "autofill": {
+            "source": "image",
+            "metadataField": "ContentMetaData/Description"
+          },
+          "stripStylingOnPaste": true
+        },
+        "credit": {
+          "autofill": {
+            "source": "image",
+            "metadataField": "ContentMetaData/Description"
+          },
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
       "name": "image2",
       "icon": "icons/components/image.svg",
       "label": {
@@ -3628,7 +3791,7 @@
       ]
     },
     {
-      "label": "02 texto geral",
+      "label": "02 Texto geral",
       "name": "02_texto_geral",
       "components": [
         "css_02_texto_bullet",
@@ -3637,7 +3800,8 @@
         "css_02_texto_citado_titulo",
         "css_02_texto_citado",
         "css_02_texto_definicao",
-        "css_02_texto_destaque",
+        "css_02_texto_destaque1",
+        "css_02_texto_destaque2",
         "css_02_texto_geral1",
         "css_02_texto_geral2",
         "css_02_texto_geral3",
@@ -3708,32 +3872,15 @@
       "label": "06 boxes",
       "name": "06_boxes",
       "components": [
-        "css_06_boxe_bullet",
-        "css_06_boxe_exercicio_continuacao",
-        "css_06_boxe_exercicio",
-        "css_06_boxe_item",
-        "css_06_boxe_texto_citado",
-        "css_06_boxe_texto1",
-        "css_06_boxe_texto2",
-        "css_06_boxe_texto3",
-        "css_06_boxe_titulo_texto_citado",
-        "css_06_boxe_titulo1",
-        "css_06_boxe_titulo2",
-        "css_06_boxe_titulo3",
-        "css_06_boxe_em_arte",
-        "css_06_boxe_em_biologia",
-        "css_06_boxe_em_filosofia",
-        "css_06_boxe_em_fisica",
-        "css_06_boxe_em_geografia",
-        "css_06_boxe_em_historia",
-        "css_06_boxe_em_lingua_inglesa",
-        "css_06_boxe_em_lingua_portuguesa",
-        "css_06_boxe_em_literatura",
-        "css_06_boxe_em_matematica",
-        "css_06_boxe_em_producao_de_texto",
-        "css_06_boxe_em_quimica",
-        "css_06_boxe_em_sociologia",
-        "css_06_boxe_watch_out"
+        "dig_secao",
+        "dig_box_01",
+        "dig_box_02",
+        "dig_box_03",
+        "dig_box_04",
+        "dig_box_10",
+        "dig_box_11",
+        "dig_box_mapa",
+        "css_06_boxe_bullet"
       ]
     },
     {
@@ -3834,7 +3981,7 @@
       "name": "media",
       "components": [
         "image",
-        "image2",
+        "image_phases",
         "embed",
         "product",
         "social-media",
@@ -3906,6 +4053,24 @@
         }
       },
       "selector": "[doc-editable]",
+      "dataType": "inlineStyles",
+      "featureFlag": "ContentStation-LocalStyleOverrides"
+    },
+    {
+      "name": "width",
+      "label": {
+        "key": "PROPERTY_IMAGE_HEIGHT_LABEL"
+      },
+      "control": {
+        "type": "text",
+        "pattern": "^(([+-]{0,1})([0-9]|[0-9][.][0-9]{1,}|[0-9]{2}|[0-9]{2}[.][0-9]{1,}|[1-4][0-9]{0,2}|[1-4][0-9]{0,2}[.][0-9]{1,}|(500))|auto)$",
+        "defaultValue": "",
+        "unit": "px",
+        "inputPlaceholder": {
+          "key": "PROPERTY_AUTO_NUMBER_PLACEHOLDER"
+        }
+      },
+      "selector": "[img-width]",
       "dataType": "inlineStyles",
       "featureFlag": "ContentStation-LocalStyleOverrides"
     },
@@ -4122,15 +4287,301 @@
               }
             },
             "value": "matematica"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+    {
+      "name": "style_boxes",
+      "label": {
+        "key": "PROPERTY_VARIANT_LABEL_BOXES"
+      },
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
           },
           {
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
               "values": {
-                "0": "ciencias"
+                "0": "aplicando_ciencia"
               }
             },
-            "value": "ciencias"
+            "value": "aplicando_ciencia"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "brincadeira"
+              }
+            },
+            "value": "brincadeira"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "conheca_artista"
+              }
+            },
+            "value": "conheca_artista"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "familia_escola"
+              }
+            },
+            "value": "familia_escola"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "get_ready"
+              }
+            },
+            "value": "get_ready"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "mapeando"
+              }
+            },
+            "value": "mapeando"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "palavra_texto"
+              }
+            },
+            "value": "palavra_texto"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "reading_time"
+              }
+            },
+            "value": "reading_time"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "saber_mais"
+              }
+            },
+            "value": "saber_mais"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "sticker_time"
+              }
+            },
+            "value": "sticker_time"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "thinking_time"
+              }
+            },
+            "value": "thinking_time"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "voce_sabia"
+              }
+            },
+            "value": "voce_sabia"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+    {
+      "name": "style_section",
+      "label": {
+        "key": "PROPERTY_VARIANT_LABEL_SECTION"
+      },
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "atividades_complementares"
+              }
+            },
+            "value": "atividades_complementares"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "caracterizando"
+              }
+            },
+            "value": "caracterizando"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "closing_up"
+              }
+            },
+            "value": "closing_up"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "conecte_assunto"
+              }
+            },
+            "value": "conecte_assunto"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "construindo_conhecimentos"
+              }
+            },
+            "value": "construindo_conhecimentos"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "criando_arte"
+              }
+            },
+            "value": "criando_arte"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "genero_textual"
+              }
+            },
+            "value": "genero_textual"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "ideias_construcao"
+              }
+            },
+            "value": "ideias_construcao"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "interacao"
+              }
+            },
+            "value": "interacao"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "leitura_inicial"
+              }
+            },
+            "value": "leitura_inicial"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "lessons"
+              }
+            },
+            "value": "lessons"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "maos_obra"
+              }
+            },
+            "value": "maos_obra"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "mapeando"
+              }
+            },
+            "value": "mapeando"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "matematica_dia"
+              }
+            },
+            "value": "matematica_dia"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "oque_aprendi"
+              }
+            },
+            "value": "oque_aprendi"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "vamos_descobrir"
+              }
+            },
+            "value": "vamos_descobrir"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "voce_historiador"
+              }
+            },
+            "value": "voce_historiador"
           }
         ]
       },
@@ -4184,6 +4635,130 @@
               }
             },
             "value": "matematica"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+    {
+      "name": "style_box_00",
+      "label": {
+        "key": "PROPERTY_VARIANT_LABEL"
+      },
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Azul(box_04)"
+              }
+            },
+            "value": "box_azul"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Laranja(box_05)"
+              }
+            },
+            "value": "box_laranja"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Verde(box_06)"
+              }
+            },
+            "value": "box_verde"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Cinza(box_07)"
+              }
+            },
+            "value": "box_cinza"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Amarelo(box_08)"
+              }
+            },
+            "value": "box_amarelo"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Ciano(box_09)"
+              }
+            },
+            "value": "box_ciano"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+    {
+      "name": "style_lessons",
+      "label": {
+        "key": "PROPERTY_VARIANT_LABEL_LESSONS"
+      },
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Lesson A"
+              }
+            },
+            "value": "lesson_A"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Lesson B"
+              }
+            },
+            "value": "lesson_B"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Lesson C"
+              }
+            },
+            "value": "lesson_C"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Lesson D"
+              }
+            },
+            "value": "lesson_D"
           }
         ]
       },
@@ -4355,8 +4930,7 @@
         "key": "PROPERTY_EDIT_IMAGE_LABEL"
       },
       "control": {
-        "type": "image-editor",
-        "focuspoint": true
+        "type": "image-editor"
       },
       "dataType": "doc-image"
     },

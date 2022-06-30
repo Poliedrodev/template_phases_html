@@ -1,0 +1,107 @@
+.dig_box_04 {
+    width: 100%;
+
+    .dig_box_04_section {
+        margin: 0;
+        padding: 21px 36px 36px 36px;
+        font-family: $fontName;
+        font-size: 1.375rem;
+        text-align: left;
+        border: 3px solid grey;
+        background-color: #fafafa;
+        border-radius: 16px;
+        position: relative;
+
+    }
+
+    .dig_box_04_section::first-child {
+        margin-top: 0;
+    }
+
+    .dig_box_title {
+        position: relative;
+        bottom: -16px;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 6px 24px 16px 24px;
+        background-color: grey;
+        border-radius: 16px 16px 0 0;
+
+        .box_title {
+            font-family: $fontHandwrite;
+            font-size: 28px;
+            color: #fff;
+
+        }
+    }
+
+    &.box_azul {
+        .dig_box_04_section {
+            background-color: #D6F4FD;
+            border: 3px solid #00AEEF;
+        }
+
+        .dig_box_title {
+            background-color: #00AEEF;
+        }
+    }
+
+    &.box_laranja {
+        .dig_box_04_section {
+            background-color: #FFE5D3;
+            border: 3px solid #FF7D23;
+        }
+
+        .dig_box_title {
+            background-color: #FF7D23;
+        }
+    }
+
+    &.box_verde {
+        .dig_box_04_section {
+            background-color: #E7F3D9;
+            border: 3px solid #85C240;
+        }
+
+        .dig_box_title {
+            background-color: #85C240;
+        }
+    }
+
+    &.box_cinza {
+        .dig_box_04_section {
+            background-color: #DCEAED;
+            border: 3px solid #5394A6;
+        }
+
+        .dig_box_title {
+            background-color: #5394A6;
+        }
+    }
+
+    &.box_amarelo {
+        .dig_box_04_section {
+            background-color: #FEF4D6;
+            border: 3px solid #F7C832;
+
+        }
+
+        .dig_box_title {
+            background-color: #F7C832;
+        }
+    }
+
+    &.box_ciano {
+        .dig_box_04_section {
+            background-color: #D6F1EC;
+            border: 3px solid #33BAA0;
+        }
+
+        .dig_box_title {
+            background-color: #33BAA0;
+        }
+    }
+
+}

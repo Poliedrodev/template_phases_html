@@ -1,0 +1,563 @@
+.dig_secao {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-top: 36px;
+
+    .dig_secao_icon_container {
+        width: 120px;
+        background-color: #f5f5f5;
+        border: 10px solid grey;
+        position: relative;
+        border-radius: 50%;
+        z-index: 1;
+        height: 120px;
+    }
+
+    .dig_secao_icon_container::before {
+        content: "";
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_01.svg);
+    }
+
+    .dig_secao_icon_text {
+        position: relative;
+        left: -32px;
+        background-color: grey;
+        border-radius: 0px 16px 16px 0;
+        max-width: 380px;
+    }
+
+    .dig_secao_icon_text::before {
+        content: "Padrão...";
+        font-family: $fontHandwrite;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 36px;
+        padding: 26px 35px;
+        display: flex;
+        color: #FFFFFF;
+
+    }
+
+    &.leitura_inicial {
+        .dig_secao_icon_container {
+            background-color: #FF5F80;
+            border: 10px solid $leitura_inicial;
+        }
+
+        .dig_secao_icon_container::before {
+            background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_01.svg);
+        }
+
+        .dig_secao_icon_text {
+            background-color: $leitura_inicial;
+        }
+
+        .dig_secao_icon_text::before {
+            content: "Leitura inicial";
+
+        }
+    }
+
+    &.interacao {
+        .dig_secao_icon_container {
+            background-color: #F7941D;
+            border: 10px solid $interacao;
+        }
+
+        .dig_secao_icon_container::before {
+            background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_05.svg);
+        }
+
+        .dig_secao_icon_text {
+            background-color: $interacao;
+
+        }
+
+        .dig_secao_icon_text::before {
+            content: "Interação";
+
+        }
+    }
+
+    &.criando_arte {
+        .dig_secao_icon_container {
+            background-color: #FF5F80;
+            border: 10px solid $criando_arte;
+        }
+
+        .dig_secao_icon_container::before {
+            background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_06.svg);
+        }
+
+        .dig_secao_icon_text {
+            background-color: $criando_arte;
+
+        }
+
+        .dig_secao_icon_text::before {
+            content: "Criando arte";
+
+        }
+    }
+
+    &.construindo_conhecimentos {
+        .dig_secao_icon_container {
+            background-color: #BDD542;
+            border: 10px solid $construindo_conhecimentos;
+        }
+
+        .dig_secao_icon_container::before {
+            background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_11.svg);
+        }
+
+        .dig_secao_icon_text {
+            background-color: $construindo_conhecimentos;
+
+        }
+
+        .dig_secao_icon_text::before {
+            padding: 0px 36px;
+            content: "construindo conhecimentos";
+
+        }
+    }
+
+    &.vamos_descobrir {
+        .dig_secao_icon_container {
+            background-color: #FFEC00;
+            border: 10px solid $vamos_descobrir;
+        }
+
+        .dig_secao_icon_container::before {
+            background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_12.svg);
+        }
+
+        .dig_secao_icon_text {
+            background-color: $vamos_descobrir;
+        }
+
+        .dig_secao_icon_text::before {
+            padding: 0 36px;
+            content: "vamos descobrir";
+        }
+    }
+
+    &.maos_obra {
+        .dig_secao_icon_container {
+            background-color: #BDD542;
+            border: 10px solid $maos_obra;
+        }
+
+        .dig_secao_icon_container::before {
+            background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_13.svg);
+        }
+
+        .dig_secao_icon_text {
+            background-color: $maos_obra;
+        }
+
+        .dig_secao_icon_text::before {
+            content: "Mãos à obra";
+        }
+    }
+
+    &.conecte_assunto {
+        .dig_secao_icon_container {
+            background-color: #FF7D23;
+            border: 10px solid $conecte_assunto;
+        }
+
+        .dig_secao_icon_container::before {
+            background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_14.svg);
+        }
+
+        .dig_secao_icon_text {
+            background-color: $conecte_assunto;
+        }
+
+        .dig_secao_icon_text::before {
+            padding: 0 36px;
+            content: "Conecte o assunto";
+        }
+    }
+
+    &.genero_textual {
+        .dig_secao_icon_container {
+            background-color: #AD46B0;
+            border: 10px solid $genero_textual;
+        }
+
+        .dig_secao_icon_container::before {
+            background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_15.svg);
+        }
+
+        .dig_secao_icon_text {
+            max-width: 430px;
+            background-color: $genero_textual;
+        }
+
+        .dig_secao_icon_text::before {
+            padding: 0 36px;
+            content: "Caracterizando o gênero textual";
+        }
+    }
+
+    &.mapeando {
+        .dig_secao_icon_container {
+            background-color: #2E3192;
+            border: 10px solid $mapeando_cor1;
+        }
+
+        .dig_secao_icon_container::before {
+            background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_16.svg);
+        }
+
+        .dig_secao_icon_text {
+            background-color: $mapeando_cor1;
+        }
+
+        .dig_secao_icon_text::before {
+            content: "Mapeando";
+        }
+    }
+
+    &.atividades_complementares {
+        &.artes {
+            .dig_secao_icon_container {
+                background-color: $art_cor1;
+                border: 10px solid $art_cor1;
+            }
+
+            .dig_secao_icon_container::before {
+                background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_17_art.svg);
+            }
+
+            .dig_secao_icon_text {
+                background-color: $art_cor1;
+
+            }
+
+            .dig_secao_icon_text::before {
+                padding: 0 36px;
+                content: "Atividades Complementares";
+            }
+        }
+
+        &.ciencias {
+            .dig_secao_icon_container {
+                background-color: $cie_cor1;
+                border: 10px solid $cie_cor1;
+            }
+
+            .dig_secao_icon_container::before {
+                background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_17_cie.svg);
+            }
+
+            .dig_secao_icon_text {
+                background-color: $cie_cor1;
+
+            }
+
+            .dig_secao_icon_text::before {
+                padding: 0 36px;
+                content: "Atividades Complementares";
+            }
+        }
+
+
+        &.geografia {
+            .dig_secao_icon_container {
+                background-color: $geo_cor1;
+                border: 10px solid $geo_cor1;
+            }
+
+            .dig_secao_icon_container::before {
+                background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_17_geo.svg);
+            }
+
+            .dig_secao_icon_text {
+                background-color: $geo_cor1;
+
+            }
+
+            .dig_secao_icon_text::before {
+                padding: 0 36px;
+                content: "Atividades Complementares";
+            }
+        }
+
+        &.historia {
+            .dig_secao_icon_container {
+                background-color: $his_cor1;
+                border: 10px solid $his_cor1;
+            }
+
+            .dig_secao_icon_container::before {
+                background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_17_his.svg);
+            }
+
+            .dig_secao_icon_text {
+                background-color: $his_cor1;
+
+            }
+
+            .dig_secao_icon_text::before {
+                padding: 0 36px;
+                content: "Atividades Complementares";
+            }
+        }
+
+        &.lingua_inglesa {
+            .dig_secao_icon_container {
+                background-color: $ing_cor1;
+                border: 10px solid $ing_cor1;
+            }
+
+            .dig_secao_icon_container::before {
+                background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_17_ing.svg);
+            }
+
+            .dig_secao_icon_text {
+                background-color: $ing_cor1;
+
+            }
+
+            .dig_secao_icon_text::before {
+                padding: 0 36px;
+                content: "Extension Activities";
+            }
+        }
+
+        &.lingua_portuguesa {
+            .dig_secao_icon_container {
+                background-color: $por_cor1;
+                border: 10px solid $por_cor1;
+            }
+
+            .dig_secao_icon_container::before {
+                background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_17_lpo.svg);
+            }
+
+            .dig_secao_icon_text {
+                background-color: $por_cor1;
+
+            }
+
+            .dig_secao_icon_text::before {
+                padding: 0 36px;
+                content: "Atividades Complementares";
+            }
+        }
+
+        &.matematica {
+            .dig_secao_icon_container {
+                background-color: $mat_cor1;
+                border: 10px solid $mat_cor1;
+            }
+
+            .dig_secao_icon_container::before {
+                background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_17_mat.svg);
+            }
+
+            .dig_secao_icon_text {
+                background-color: $mat_cor1;
+
+            }
+
+            .dig_secao_icon_text::before {
+                padding: 0 36px;
+                content: "Atividades Complementares";
+            }
+        }
+    }
+
+    &.oque_aprendi {
+        .dig_secao_icon_container {
+            background-color: #4252AB;
+            border: 10px solid $oque_aprendi;
+        }
+
+        .dig_secao_icon_container::before {
+            background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_18.svg);
+        }
+
+        .dig_secao_icon_text {
+            background-color: $oque_aprendi;
+        }
+
+        .dig_secao_icon_text::before {
+            content: "o que eu aprendi";
+            padding: 0 36px;
+        }
+    }
+
+    &.closing_up {
+        .dig_secao_icon_container {
+            background-color: #7FCEEF;
+            border: 10px solid $closing_up;
+        }
+
+        .dig_secao_icon_container::before {
+            background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_19.svg);
+        }
+
+        .dig_secao_icon_text {
+            background-color: $closing_up;
+        }
+
+        .dig_secao_icon_text::before {
+            content: "Closing up";
+        }
+    }
+
+    &.pontos_letras {
+        .dig_secao_icon_container {
+            background-color: #F7C832;
+            border: 10px solid $pontos_letras;
+        }
+
+        .dig_secao_icon_container::before {
+            background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_20.svg);
+        }
+
+        .dig_secao_icon_text {
+            background-color: $pontos_letras;
+        }
+
+        .dig_secao_icon_text::before {
+            content: "Closing up";
+        }
+    }
+
+
+    &.lessons {
+        .dig_secao_icon_container {
+            background-color: #AD46B0;
+            border: 10px solid $lessons;
+        }
+
+        .dig_secao_icon_text {
+            background-color: $lessons;
+        }
+
+        &.lesson_A {
+            .dig_secao_icon_container::before {
+                background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_07.svg);
+            }
+
+
+            .dig_secao_icon_text::before {
+                padding: 0 36px;
+                content: "LESSON A - LISTEN UP";
+            }
+        }
+
+        &.lesson_B {
+            .dig_secao_icon_container::before {
+                background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_08.svg);
+            }
+
+
+            .dig_secao_icon_text::before {
+                padding: 0 36px;
+                content: "LESSON B - Speak up";
+            }
+        }
+
+        &.lesson_C {
+            .dig_secao_icon_container::before {
+                background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_09.svg);
+            }
+
+
+            .dig_secao_icon_text::before {
+                padding: 0 36px;
+                content: "LESSON C - Read On";
+            }
+        }
+
+        &.lesson_D {
+            .dig_secao_icon_container::before {
+                background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_10.svg);
+            }
+
+
+            .dig_secao_icon_text::before {
+                padding: 0 36px;
+                content: "LESSON D - LISTEN UP";
+            }
+        }
+
+    }
+
+    &.ideias_construcao {
+        .dig_secao_icon_container {
+            background-color: #FFEC00;
+            border: 10px solid $ideias_construcao;
+        }
+
+        .dig_secao_icon_container::before {
+            background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_02.svg);
+        }
+
+        .dig_secao_icon_text {
+            background-color: $ideias_construcao;
+        }
+
+        .dig_secao_icon_text::before {
+            padding: 0 36px;
+            content: "Ideias em construção";
+        }
+    }
+
+    &.voce_historiador {
+        .dig_secao_icon_container {
+            background-color: #F7941D;
+            border: 10px solid $voce_historiador;
+        }
+
+        .dig_secao_icon_container::before {
+            background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_03.svg);
+        }
+
+        .dig_secao_icon_text {
+            background-color: $voce_historiador;
+        }
+
+        .dig_secao_icon_text::before {
+            padding: 0 36px;
+            content: "Você é o historiador";
+        }
+    }
+
+    &.matematica_dia {
+        .dig_secao_icon_container {
+            background-color: #92278F;
+            border: 10px solid $matematica_dia;
+        }
+
+        .dig_secao_icon_container::before {
+            background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/dig_secao_04.svg);
+        }
+
+        .dig_secao_icon_text {
+            background-color: $matematica_dia;
+        }
+
+        .dig_secao_icon_text::before {
+            content: "A matemática no dia a dia";
+            padding: 0 36px;
+        }
+    }
+
+
+
+}

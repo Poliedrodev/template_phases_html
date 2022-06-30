@@ -220,6 +220,7 @@ $ideias_construcao: #33C6F3;
 $matematica_dia: #33C6F3;
 $voce_historiador: #33C6F3;
 
+$pontos_letras: #AD46B0;
 $construindo_conhecimentos: #AD46B0;
 
 $maos_obra: #FF7D23;
@@ -227,22 +228,8 @@ $maos_obra: #FF7D23;
 $oque_aprendi: #684198;
 $closing_up: #684198;
 
-/* Outros */
-$fontName: 'Red Hat Text', arial;
-$fontTitle: 'Rubik', arial;
-$fontSerifa: 'Roboto Slab' sans-serif;
-$fontHandwrite: 'Mali', sans-serif;
-$defaultFontSize: 22px;
-$defaultFontWeight: 300;
-$screen-sm-max: 991px;
-$speed: 0.2s;
-$img-dir: 'img/';
-$max-width: 860px;
-$phone-max-width: 481px;
 
-// Question
-$fontSizeQuestion: 22px;
-$fontSizeIndiceQuestion: 22px;
+
 
 // tirando eslito padrão
 ol,
@@ -269,11 +256,29 @@ h1 {
 /* Imports the style from the google fonts cdn */
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap);
-@import url('https://fonts.googleapis.com/css2?family=Mali:wght@500&family=Red+Hat+Text:wght@300;500;600&family=Roboto+Slab:wght@300;700&family=Rubik:wght@400;800;900&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Mali:wght@500&family=Red+Hat+Text:wght@300;500;600&family=Roboto+Slab:wght@300;700&family=Rubik:wght@400;800;900&display=swap);
+
+/* Outros */
+$fontName: 'Red Hat Text', sans-serif;
+$fontTitle: 'Rubik', arial;
+$fontSerifa: 'Roboto Slab', serif;
+
+$fontHandwrite: 'Mali', sans-serif;
+$defaultFontSize: 22px;
+$defaultFontWeight: 300;
+$screen-sm-max: 991px;
+$speed: 0.2s;
+$img-dir: 'img/';
+$max-width: 860px;
+$phone-max-width: 481px;
+
+// Question
+$fontSizeQuestion: 22px;
+$fontSizeIndiceQuestion: 22px;
 
 /* Article view style */
-html,
-body {
+.body-book,
+.body {
     padding: 0;
     margin: 0;
     font: $defaultFontSize $fontName;
@@ -290,7 +295,7 @@ body {
     }
 }
 
-body {
+.body {
     max-width: $max-width;
     padding: 0 5px;
     margin-left: auto;
@@ -345,7 +350,7 @@ span[data-text-edit-color] {
 .hero-js {
     height: 100%;
 
-    body {
+    .body {
         height: 100%;
     }
 
@@ -407,7 +412,7 @@ span[data-text-edit-color] {
     }
 
     &.hero-js-android {
-        body {
+        .body {
             max-width: none;
         }
 

@@ -1,0 +1,49 @@
+.dig_box_10 {
+    margin: 0;
+    padding: 21px 36px 36px 36px;
+    font-family: $fontName;
+    font-size: 1.375rem;
+    text-align: left;
+    border: 3px solid grey;
+    background-color: white;
+    border-radius: 16px;
+    position: relative;
+
+    &.leitura_inicial {
+        border: 3px solid $leitura_inicial;
+    }
+
+    &.interacao,
+    &.criando_arte,
+    &.lessons {
+        border: 3px solid $criando_arte;
+    }
+
+    &.conecte_assunto,
+    &.caracterizando,
+    &.genero_textual {
+        border: 3px solid $conecte_assunto;
+    }
+
+    &.ideias_construcao &.matematica_dia &.voce_historiador {
+        border: 3px solid $ideias_construcao;
+    }
+
+    &.vamos_descobrir {
+        border: 3px solid $vamos_descobrir;
+    }
+
+    &.construindo_conhecimentos &.pontos_letras {
+        border: 3px solid $construindo_conhecimentos;
+    }
+
+    &.maos_obra {
+        border: 3px solid $maos_obra;
+    }
+
+    &.oque_aprendi,
+    &.closing_up {
+        border: 3px solid $oque_aprendi;
+    }
+
+}

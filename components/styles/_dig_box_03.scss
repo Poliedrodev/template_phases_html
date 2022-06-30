@@ -1,0 +1,111 @@
+.dig_box_03 {
+    width: 100%;
+
+    .dig_box_03_section {
+        margin: 0;
+        padding: 21px 36px 36px 36px;
+        font-family: $fontName;
+        font-size: 1.375rem;
+        text-align: left;
+        border: 3px solid grey;
+        background-color: white;
+        border-radius: 16px;
+        position: relative;
+
+    }
+
+    .dig_box_03_section::first-child {
+        margin-top: 0;
+    }
+
+    .dig_box_03_title {
+        position: relative;
+        bottom: -16px;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 6px 24px 16px 24px;
+        background-color: grey;
+        border-radius: 16px 16px 0 0;
+
+        .box_title {
+            font-family: $fontHandwrite;
+            font-size: 28px;
+            color: #fff;
+
+        }
+    }
+
+    &.artes {
+        .dig_box_03_section {
+            border: 3px solid $art_cor1;
+        }
+
+        .dig_box_03_title {
+            background-color: $art_cor1;
+        }
+    }
+
+    &.ciencias {
+        .dig_box_03_section {
+            border: 3px solid $cie_cor1;
+        }
+
+        .dig_box_03_title {
+            background-color: $cie_cor1;
+        }
+    }
+
+    &.geografia {
+        .dig_box_03_section {
+            border: 3px solid $geo_cor1;
+        }
+
+        .dig_box_03_title {
+            background-color: $geo_cor1;
+        }
+    }
+
+    &.historia {
+        .dig_box_03_section {
+            border: 3px solid $his_cor1;
+        }
+
+        .dig_box_03_title {
+            background-color: $his_cor1;
+        }
+    }
+
+    &.lingua_portuguesa {
+        .dig_box_03_section {
+            border: 3px solid $por_cor1;
+
+        }
+
+        .dig_box_03_title {
+            background-color: $por_cor1;
+        }
+    }
+
+    &.lingua_inglesa {
+        .dig_box_03_section {
+            border: 3px solid $ing_cor1;
+        }
+
+        .dig_box_03_title {
+            background-color: $ing_cor1;
+        }
+    }
+
+    &.matematica {
+        .dig_box_03_section {
+            border: 3px solid $mat_cor1;
+        }
+
+        .dig_box_03_title {
+            background-color: $mat_cor1;
+        }
+    }
+
+}
