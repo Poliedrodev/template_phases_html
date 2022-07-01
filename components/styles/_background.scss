@@ -1,89 +1,74 @@
 .body-book {
   &.artes {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_ART.svg');
+    background-color: $art_cor2;
+    background-image: url('https://livro-digital.p4ed.com/assets/icons/phases/kdFundo_Artes.svg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     height: fit-content;
   }
 
-  &.biologia {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_BIO.svg');
+  &.ciencias {
+    background-color: $cie_cor2;
+    background-image: url('https://livro-digital.p4ed.com/assets/icons/phases/kdFundo_Ciencias.svg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     height: fit-content;
 
   }
 
-  &.filosofia {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_FIL.svg');
+  &.matematica {
+    background-color: $mat_cor2;
+    background-image: url('https://livro-digital.p4ed.com/assets/icons/phases/kdFundo_Matematica.svg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     height: fit-content;
 
-  }
-
-  &.fisica {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_FIS.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: fit-content;
   }
 
   &.geografia {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_GEO.svg');
+    background-color: $geo_cor2;
+    background-image: url('https://livro-digital.p4ed.com/assets/icons/phases/kdFundo_Geografia.svg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     height: fit-content;
   }
 
   &.historia {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_HIS.svg');
+    background-color: $his_cor2;
+    background-image: url('https://livro-digital.p4ed.com/assets/icons/phases/kdFundo_Historia.svg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     height: fit-content;
   }
 
   &.lingua_inglesa {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_ING.svg');
+    background-color: $ing_cor2;
+    background-image: url('https://livro-digital.p4ed.com/assets/icons/phases/kdFundo_Ingles.svg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     height: fit-content;
   }
 
   &.lingua_portuguesa {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_POR.svg');
+    background-color: $por_cor2;
+    background-image: url('https://livro-digital.p4ed.com/assets/icons/phases/kdFundo_Portugues.svg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     height: fit-content;
-  }
-
-  &.matematica {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_MAT.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: fit-content;
-  }
-
-  &.producao_de_texto {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_PXT.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: fit-content;
-  }
-
-  &.quimica {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_QUI.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: fit-content;
-  }
-
-  &.sociologia {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_SOC.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: fit-content;
-
   }
 
 }

@@ -6,4 +6,157 @@
   font-weight: 400;
   line-height: 1.5em;
   padding-inline-start: 20px;
+  padding-left: 19px;
+  list-style: none;
+  padding-left: 24px;
+  margin-top: 18px;
+
+  .css_02_texto_bullet_itens {
+    font-size: 18px;
+    font-family: $fontName;
+
+    font-weight: 400;
+    line-height: 1.5em;
+    padding-left: 4px;
+    margin-top: 16px;
+    position: relative;
+
+    &:first-child {
+      margin: 0 !important;
+    }
+
+    &::before {
+      content: "";
+      height: 21px;
+      width: 16px;
+      position: absolute;
+      left: -24px;
+      top: 5px;
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_MAT.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
+  &.matematica {
+    .css_02_texto_bullet_itens::before {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_MAT.svg);
+
+    }
+  }
+
+  &.artes {
+    .css_02_texto_bullet_itens::before {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_ART.svg);
+
+    }
+  }
+
+  &.lingua_portuguesa {
+    .css_02_texto_bullet_itens::before {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_LPO.svg);
+
+    }
+  }
+
+  &.lingua_inglesa {
+    .css_02_texto_bullet_itens::before {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_ING.svg);
+
+    }
+  }
+
+  &.historia {
+    .css_02_texto_bullet_itens::before {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_HIS.svg);
+
+    }
+  }
+
+  &.geografia {
+    .css_02_texto_bullet_itens::before {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_GEO.svg);
+
+    }
+  }
+
+  &.ciencias {
+    .css_02_texto_bullet_itens::before {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_CIE.svg);
+
+    }
+  }
+
+  &.lingua_inglesa {
+    .css_02_texto_bullet_itens::before {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_ING.svg);
+
+    }
+  }
+
+  &.leitura_inicial {
+    .css_02_texto_bullet_itens::before {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/02_texto_bullet_leitura.svg);
+
+    }
+  }
+
+  &.interacao,
+  &.criando_arte,
+  &.lessons {
+    .css_02_texto_bullet_itens::before {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/02_texto_bullet_interacao.svg);
+
+    }
+  }
+
+  &.conecte_assunto,
+  &.caracterizando,
+  &.genero_textual {
+    .css_02_texto_bullet_itens::before {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/02_texto_bullet_conecte.svg);
+
+    }
+  }
+
+  &.vamos_descobrir {
+    .css_02_texto_bullet_itens::before {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/02_texto_bullet_descobrir.svg);
+
+    }
+  }
+
+  &.ideias_construcao,
+  &.matematica_dia,
+  &.voce_historiador {
+    .css_02_texto_bullet_itens::before {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/02_texto_bullet_ideias.svg);
+
+    }
+  }
+
+  &.pontos_letras,
+  &.construindo_conhecimentos {
+    .css_02_texto_bullet_itens::before {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/02_texto_bullet_construindo.svg);
+
+    }
+  }
+
+  &.maos_obra {
+    .css_02_texto_bullet_itens::before {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/02_texto_bullet_maos.svg);
+
+    }
+  }
+
+  &.oque_aprendi,
+  &.closing_up {
+    .css_02_texto_bullet_itens::before {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/02_texto_bullet_aprendi.svg);
+
+    }
+  }
+
 }

@@ -1,0 +1,146 @@
+.css_03_2exercicio_container_edit {
+  margin-top: 31px;
+
+  position: relative;
+  display: grid;
+  grid-template-columns: min-content auto;
+  gap: 8px;
+
+  font-family: $fontName;
+  font-weight: 400;
+  color: $textColor;
+  line-height: 1.5em;
+  font-size: $fontSizeQuestion;
+  align-items: baseline;
+
+  .content_number {
+    width: 34px;
+
+    .background_number {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+
+      .number_exercicio {
+        color: white;
+        font-family: $fontTitle;
+        font-weight: 700;
+        font-variant: tabular-nums;
+        font-size: $fontSizeIndiceQuestion;
+      }
+    }
+  }
+
+  .group_exercicio {
+    margin: 0;
+
+    &::first-child {
+      margin: 0;
+    }
+  }
+
+  &.artes {
+    .background_number {
+      background-color: $art_cor1;
+    }
+  }
+
+  &.lingua_inglesa {
+    .background_number {
+      background-color: $ing_cor1;
+    }
+  }
+
+  &.lingua_portuguesa {
+    .background_number {
+      background-color: $por_cor1;
+    }
+  }
+
+  &.matematica {
+    .background_number {
+      background-color: $mat_cor1;
+    }
+  }
+
+  &.ciencias {
+    .background_number {
+      background-color: $cie_cor1;
+    }
+  }
+
+  &.geografia {
+    .background_number {
+      background-color: $geo_cor1;
+    }
+  }
+
+  &.historia {
+    .background_number {
+      background-color: $his_cor1;
+    }
+  }
+
+  &.leitura_inicial {
+    .background_number {
+      background-color: $leitura_inicial;
+    }
+  }
+
+  &.interacao,
+  &.criando_arte,
+  &.lessons {
+    .background_number {
+      background-color: $interacao;
+    }
+  }
+
+
+  &.conecte_assunto,
+  &.caracterizando,
+  &.genero_textual {
+    .background_number {
+      background-color: $genero_textual;
+    }
+  }
+
+  &.vamos_descobrir {
+    .background_number {
+      background-color: $vamos_descobrir;
+    }
+  }
+
+  &.ideias_construcao,
+  &.matematica_dia,
+  &.voce_historiador {
+    .background_number {
+      background-color: $matematica_dia;
+    }
+  }
+
+  &.pontos_letras,
+  &.construindo_conhecimentos {
+    .background_number {
+      background-color: $pontos_letras;
+    }
+  }
+
+  &.maos_obra {
+    .background_number {
+      background-color: $maos_obra;
+    }
+  }
+
+  &.oque_aprendi,
+  &.closing_up {
+    .background_number {
+      background-color: $oque_aprendi;
+    }
+  }
+
+}

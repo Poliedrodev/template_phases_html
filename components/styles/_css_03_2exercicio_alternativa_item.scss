@@ -1,7 +1,7 @@
-.css_03_exercicio_itens {
+.css_03_2exercicio_alternativa_item {
   margin-top: 16px;
 
-  font-family: fontName;
+  font-family: $fontName;
   font-weight: 300;
   color: $textColor;
   line-height: 1.5em;
@@ -13,12 +13,12 @@
   position: relative;
 
   &::before {
-    font-family: fontName;
+    font-family: $fontName;
     font-size: $fontSizeIndiceQuestion;
     font-weight: 600;
     counter-increment: list;
-    content: counter(list) ".";
+    content: counter(list, lower-alpha) ")";
     position: absolute;
-    left: -32px;
+    left: -30px;
   }
 }

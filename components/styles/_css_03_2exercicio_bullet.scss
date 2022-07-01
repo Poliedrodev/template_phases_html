@@ -1,0 +1,160 @@
+.css_03_2exercicio_bullet {
+  display: block;
+  font-size: 18px;
+  color: #000000;
+  font-family: $fontName;
+  font-weight: 400;
+  line-height: 1.5em;
+  padding-inline-start: 20px;
+  padding-left: 19px;
+  list-style: none;
+  padding-left: 25px;
+  margin-top: 18px;
+
+  .css_03_2exercicio_bullet_itens {
+    font-size: 18px;
+    font-family: $fontName;
+
+    font-weight: 400;
+    line-height: 1.5em;
+    padding-left: 4px;
+    margin-top: 16px;
+    position: relative;
+
+    &:first-child {
+      margin: 0 !important;
+    }
+
+    &::before {
+      content: "";
+      height: 14px;
+      width: 14px;
+      border-radius: 50%;
+      background-color: grey;
+      position: absolute;
+      left: -24px;
+      top: 5px;
+    }
+  }
+
+  &.matematica {
+    .css_03_2exercicio_bullet_itens::before {
+      background-color: $mat_cor1;
+
+    }
+  }
+
+  &.artes {
+    .css_03_2exercicio_bullet_itens::before {
+      background-color: $art_cor1;
+
+    }
+  }
+
+  &.lingua_portuguesa {
+    .css_03_2exercicio_bullet_itens::before {
+      background-color: $por_cor1;
+
+    }
+  }
+
+  &.lingua_inglesa {
+    .css_03_2exercicio_bullet_itens::before {
+      background-color: $ing_cor1;
+
+    }
+  }
+
+  &.historia {
+    .css_03_2exercicio_bullet_itens::before {
+      background-color: $his_cor1;
+
+    }
+  }
+
+  &.geografia {
+    .css_03_2exercicio_bullet_itens::before {
+      background-color: $geo_cor1;
+
+    }
+  }
+
+  &.ciencias {
+    .css_03_2exercicio_bullet_itens::before {
+      background-color: $cie_cor1;
+
+    }
+  }
+
+  &.lingua_inglesa {
+    .css_03_2exercicio_bullet_itens::before {
+      background-color: $ing_cor1;
+
+    }
+  }
+
+  &.leitura_inicial {
+    .css_03_2exercicio_bullet_itens::before {
+      background-color: $leitura_inicial;
+
+    }
+  }
+
+  &.interacao,
+  &.criando_arte,
+  &.lessons {
+    .css_03_2exercicio_bullet_itens::before {
+      background-color: $lessons;
+
+    }
+  }
+
+  &.conecte_assunto,
+  &.caracterizando,
+  &.genero_textual {
+    .css_03_2exercicio_bullet_itens::before {
+      background-color: $caracterizando;
+
+    }
+  }
+
+  &.vamos_descobrir {
+    .css_03_2exercicio_bullet_itens::before {
+      background-color: $vamos_descobrir;
+
+    }
+  }
+
+  &.ideias_construcao,
+  &.matematica_dia,
+  &.voce_historiador {
+    .css_03_2exercicio_bullet_itens::before {
+      background-color: $voce_historiador;
+
+    }
+  }
+
+  &.pontos_letras,
+  &.construindo_conhecimentos {
+    .css_03_2exercicio_bullet_itens::before {
+      background-color: $pontos_letras;
+
+    }
+  }
+
+  &.maos_obra {
+    .css_03_2exercicio_bullet_itens::before {
+      background-color: $maos_obra;
+
+    }
+  }
+
+  &.oque_aprendi,
+  &.closing_up {
+    .css_03_2exercicio_bullet_itens::before {
+      background-color: $oque_aprendi;
+
+    }
+  }
+
+}

@@ -1,10 +1,80 @@
 .css_05_legenda {
-  display: block;
-  color: #666666;
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  color: #000000;
   font-family: $fontName;
   font-weight: 300;
-  text-align: right;
+  text-align: left;
   font-size: 1.125rem;
   margin-top: 4px;
+  align-items: flex-start;
+  gap: 32px;
+
+  .legenda_icon {
+    width: 16px;
+    height: 21px;
+    transform: rotate(-90deg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 4px;
+    margin-left: 2px;
+  }
+
+  &.matematica {
+    .legenda_icon {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_MAT.svg);
+
+    }
+  }
+
+  &.artes {
+    .legenda_icon {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_ART.svg);
+
+    }
+  }
+
+  &.lingua_portuguesa {
+    .legenda_icon {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_LPO.svg);
+
+    }
+  }
+
+  &.lingua_inglesa {
+    .legenda_icon {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_ING.svg);
+
+    }
+  }
+
+  &.historia {
+    .legenda_icon {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_HIS.svg);
+
+    }
+  }
+
+  &.geografia {
+    .legenda_icon {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_GEO.svg);
+
+    }
+  }
+
+  &.ciencias {
+    .legenda_icon {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_CIE.svg);
+
+    }
+  }
+
+  &.lingua_inglesa {
+    .legenda_icon {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_ING.svg);
+
+    }
+  }
 
 }
