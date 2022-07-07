@@ -29,8 +29,9 @@
   }
 
   /* Variações de cores */
-  &.voce_sabia {
+  &.voce_sabia h3 {
     color: $art_cor1;
+    font-size: 28px;
 
     .line_titulo3 {
       border-bottom: 3px dashed $voce_sabia_cor1;
@@ -41,8 +42,9 @@
     }
   }
 
-  &.conheca_artista {
+  &.conheca_artista h3 {
     color: $conheca_artista_cor1;
+    font-size: 28px;
 
     .line_titulo3 {
       border-bottom: 3px dashed $conheca_artista_cor1;
@@ -53,8 +55,9 @@
     }
   }
 
-  &.get_ready {
+  &.get_ready h3 {
     color: $get_ready_cor1;
+    font-size: 28px;
 
     .line_titulo3 {
       border-bottom: 3px dashed $get_ready_cor1;
@@ -65,8 +68,9 @@
     }
   }
 
-  &.palavra_texto {
+  &.palavra_texto h3 {
     color: $palavra_texto_cor1;
+    font-size: 28px;
 
     .line_titulo3 {
       border-bottom: 3px dashed $palavra_texto_cor1;
@@ -77,8 +81,9 @@
     }
   }
 
-  &.mapeando {
+  &.mapeando h3 {
     color: $mapeando_cor1;
+    font-size: 28px;
 
     .line_titulo3 {
       border-bottom: 3px dashed $mapeando_cor1;
@@ -89,8 +94,9 @@
     }
   }
 
-  &.sticker_time {
+  &.sticker_time h3 {
     color: $sticker_time_cor1;
+    font-size: 28px;
 
     .line_titulo3 {
       border-bottom: 3px dashed $sticker_time_cor1;
@@ -101,8 +107,9 @@
     }
   }
 
-  &.brincadeira {
+  &.brincadeira h3 {
     color: $brincadeira_cor1;
+    font-size: 28px;
 
     .line_titulo3 {
       border-bottom: 3px dashed $brincadeira_cor1;
@@ -113,8 +120,9 @@
     }
   }
 
-  &.saber_mais {
+  &.saber_mais h3{
     color: $saber_mais_cor1;
+    font-size: 28px;
 
     .line_titulo3 {
       border-bottom: 3px dashed $saber_mais_cor1;
@@ -125,8 +133,9 @@
     }
   }
 
-  &.aplicando_ciencia {
+  &.aplicando_ciencia h3 {
     color: $aplicando_ciencia_cor1;
+    font-size: 28px;
 
     .line_titulo3 {
       border-bottom: 3px dashed $aplicando_ciencia_cor1;
@@ -137,8 +146,9 @@
     }
   }
 
-  &.thinking_time {
+  &.thinking_time h3{
     color: $thinking_time_cor1;
+    font-size: 28px;
 
     .line_titulo3 {
       border-bottom: 3px dashed $thinking_time_cor1;
@@ -149,8 +159,9 @@
     }
   }
 
-  &.familia_escola {
+  &.familia_escola h3 {
     color: $familia_escola_cor1;
+    font-size: 28px;
 
     .line_titulo3 {
       border-bottom: 3px dashed $familia_escola_cor1;
@@ -161,8 +172,9 @@
     }
   }
 
-  &.reading_time {
+  &.reading_time h3{
     color: $reading_time_cor1;
+    font-size: 28px;
 
     .line_titulo3 {
       border-bottom: 3px dashed $reading_time_cor1;
@@ -173,8 +185,9 @@
     }
   }
 
-  &.leitura_inicial {
+  &.leitura_inicial h3 {
     color: $leitura_inicial;
+    font-size: 28px;
 
     .line_titulo3 {
       border-bottom: 3px dashed $leitura_inicial;
@@ -189,6 +202,7 @@
   &.criando_arte,
   &.lessons {
     color: $interacao;
+    font-size: 28px;
 
     .line_titulo3 {
       border-bottom: 3px dashed $interacao;
@@ -201,8 +215,9 @@
 
   &.conecte_assunto,
   &.caracterizando,
-  &.genero_textual {
+  &.genero_textual  h3{
     color: $conecte_assunto;
+    font-size: 28px;
 
     .line_titulo3 {
       border-bottom: 3px dashed $conecte_assunto;
@@ -213,8 +228,9 @@
     }
   }
 
-  &.vamos_descobrir {
+  &.vamos_descobrir h3{
     color: $vamos_descobrir;
+    font-size: 28px;
 
     .line_titulo3 {
       border-bottom: 3px dashed $vamos_descobrir;
@@ -227,8 +243,9 @@
 
   &.ideias_construcao,
   &.matematica_dia,
-  &.voce_historiador {
+  &.voce_historiador h3 {
     color: $ideias_construcao;
+    font-size: 28px;
 
     .line_titulo3 {
       border-bottom: 3px dashed $ideias_construcao;
@@ -239,8 +256,9 @@
     }
   }
 
-  &.construindo_conhecimentos {
+  &.construindo_conhecimentos h3 {
     color: $construindo_conhecimentos;
+    font-size: 28px;
 
     .line_titulo3 {
       border-bottom: 3px dashed $construindo_conhecimentos;
@@ -251,8 +269,9 @@
     }
   }
 
-  &.maos_obra {
+  &.maos_obra h3 {
     color: $maos_obra;
+    font-size: 28px;
 
     .line_titulo3 {
       border-bottom: 3px dashed $maos_obra;
@@ -264,8 +283,9 @@
   }
 
   &.oque_aprendi,
-  &.closing_up {
+  &.closing_up  h3 {
     color: $oque_aprendi;
+    font-size: 28px;
 
     .line_titulo3 {
       border-bottom: 3px dashed $oque_aprendi;
