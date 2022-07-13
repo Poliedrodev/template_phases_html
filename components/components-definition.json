@@ -1804,7 +1804,19 @@
       "allowNesting": "yes",
       "label": "Dig Mapa",
       "properties": [
-        "position"
+        "position",
+        "width"
+      ]
+    },
+    {
+      "name": "dig_box_mapa_2",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "label": "Dig Mapa Borda Arredondada",
+      "properties": [
+        "position",
+        "width"
       ]
     },
     {
@@ -2782,9 +2794,7 @@
     {
       "name": "image_phases",
       "icon": "icons/components/image.svg",
-      "label": {
-        "key": "COMPONENT_IMAGE2_LABEL"
-      },
+      "label":"Imagem Phases",
       "properties": [
         "position",
         "width",
@@ -3403,6 +3413,7 @@
       "allowNesting": "yes",
       "label": "Background Livro",
       "properties": [
+        "edit-mode",
         "style"
       ]
     },
@@ -3837,6 +3848,7 @@
         "dig_box_10",
         "dig_box_11",
         "dig_box_mapa",
+        "dig_box_mapa_2",
         "css_06_boxe_bullet"
       ]
     },
@@ -3966,6 +3978,24 @@
     }
   ],
   "componentProperties": [
+    {
+      "name": "edit-mode",
+      "label": "Ative para ver o modo de edição com barras",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": "Desativado"
+          },
+          {
+            "caption": "Ativado",
+            "value": "edit-mode"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+
     {
       "name": "position",
       "label": {

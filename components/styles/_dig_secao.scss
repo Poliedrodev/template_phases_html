@@ -558,6 +558,312 @@
         }
     }
 
+    // Media Query
 
+    @media only screen and (max-width: $phone-max-width) {
+    &.construindo_conhecimentos {
+       
+        .dig_secao_icon_text::before {
+            font-size: 13px;
+        }
+        
+        .dig_secao_icon_container {
+            height: 44px;
+            width: 44px;
+            border: 5px;
+        }
 
+        .dig_secao_icon_container::before {
+            width: 40px;
+            height: 40px;
+        
+        }
+    }
+
+    
+    &.leitura_inicial {
+
+        .dig_secao_icon_text::before {
+            font-size: 13px;
+        }
+        
+        .dig_secao_icon_container {
+            height: 44px;
+            width: 44px;
+            border: 5px;
+        }
+
+        .dig_secao_icon_container::before {
+            width: 40px;
+            height: 40px;
+     
+        }
+
+    }
+
+    &.matematica_dia {
+        
+        .dig_secao_icon_text::before {
+            font-size: 13px;
+            padding: 10px 36px;
+        }
+        
+        .dig_secao_icon_container {
+            height: 44px;
+            width: 44px;
+            border: 5px;
+        }
+
+        .dig_secao_icon_container::before {
+            width: 40px;
+            height: 40px;
+           
+        }
+
+    }
+    &.voce_historiador {
+
+        .dig_secao_icon_text::before {
+            font-size: 13px;
+            padding: 10px 36px;
+        }
+        
+        .dig_secao_icon_container {
+            height: 44px;
+            width: 44px;
+            border: 5px;
+        }
+
+        .dig_secao_icon_container::before {
+            width: 40px;
+            height: 40px;
+        
+        }
+
+    }
+
+    &.ideias_construcao {
+        .dig_secao_icon_text::before {
+            font-size: 13px;
+            padding: 10px 36px;
+        }
+        
+        .dig_secao_icon_container {
+            height: 44px;
+            width: 44px;
+            border: 5px;
+        }
+
+        .dig_secao_icon_container::before {
+            width: 40px;
+            height: 40px;
+   
+        }
+    }
+    &.interacao{
+        .dig_secao_icon_text::before {
+            font-size: 13px;
+            padding: 10px 36px;
+        }
+        
+        .dig_secao_icon_container {
+            height: 44px;
+            width: 44px;
+       
+        }
+
+        .dig_secao_icon_container::before {
+            width: 40px;
+            height: 40px;    
+        }
+
+    }
+    &.criando_arte{
+        .dig_secao_icon_text::before {
+            font-size: 13px;
+            padding: 10px 36px;
+        }
+        
+        .dig_secao_icon_container {
+            height: 44px;
+            width: 44px;
+            border: 5px;
+        }
+
+        .dig_secao_icon_container::before {
+            width: 40px;
+            height: 40px;    
+        }
+
+    }
+    &.conecte_assunto {
+        .dig_secao_icon_text::before {
+            font-size: 13px;
+        }
+        
+        .dig_secao_icon_container {
+            height: 44px;
+            width: 44px;
+            border: 5px;
+        }
+
+        .dig_secao_icon_container::before {
+            width: 40px;
+            height: 40px;
+   
+        }
+
+    }
+    &.closing_up {
+        .dig_secao_icon_text::before {
+            font-size: 13px;
+        }
+        
+        .dig_secao_icon_container {
+            height: 44px;
+            width: 44px;
+            border: 5px;
+        }
+
+        .dig_secao_icon_container::before {
+            width: 40px;
+            height: 40px;
+         
+        }
+    }
+
+    &.criando_arte {
+        .dig_secao_icon_text::before {
+            font-size: 13px;
+        }
+        
+        .dig_secao_icon_container {
+            height: 44px;
+            width: 44px;
+            border: 5px;
+        }
+
+        .dig_secao_icon_container::before {
+            width: 40px;
+            height: 40px;
+          
+        }
+        
+    }
+    &.mapeando {
+        .dig_secao_icon_text::before {
+            font-size: 13px;
+        }
+        
+        .dig_secao_icon_container {
+            height: 44px;
+            width: 44px;
+            border: 5px;
+        }
+
+        .dig_secao_icon_container::before {
+            width: 40px;
+            height: 40px;
+           
+        }
+        
+    }
+    &.genero_textual {
+        .dig_secao_icon_text::before {
+            font-size: 13px;
+            padding: 0px 38px;
+        }
+        
+        .dig_secao_icon_container {
+            height: 38px;
+            border: 5px;
+            width: 42px;
+        }
+
+        .dig_secao_icon_container::before {
+            width: 38px;
+            height: 38px;
+           
+        }
+    }
+
+    &.oque_aprendi{
+        
+        .dig_secao_icon_text::before {
+            font-size: 13px;
+            padding: 10px 36px;
+        }
+        
+        .dig_secao_icon_container {
+            height: 44px;
+            width: 44px;
+            border: 5px;
+        }
+
+        .dig_secao_icon_container::before {
+            width: 40px;
+            height: 40px;
+         
+        }
+
+    }
+
+    &.vamos_descobrir{
+        
+        .dig_secao_icon_text::before {
+            font-size: 13px;
+            padding: 10px 36px;
+        }
+        
+        .dig_secao_icon_container {
+            height: 44px;
+            width: 44px;
+            border: 5px;
+        }
+
+        .dig_secao_icon_container::before {
+            width: 40px;
+            height: 40px;
+          
+        }
+    }
+
+    &.maos_obra{
+        .dig_secao_icon_text::before {
+            font-size: 13px;
+            padding: 10px 35px;
+        }
+        
+        .dig_secao_icon_container {
+            height: 44px;
+            width: 44px;
+            border: 5px;
+        }
+
+        .dig_secao_icon_container::before {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    &.atividades_complementares {
+        .dig_secao_icon_text::before {
+            font-size: 13px;
+            padding: 2px 36px;
+        }
+        
+        .dig_secao_icon_container {
+            height: 44px;
+            width: 44px;
+            border: 5px;
+        }
+
+        .dig_secao_icon_container::before {
+            width: 40px;
+            height: 40px;
+        }
+
+    }
+
+    }
 }

@@ -1,28 +1,30 @@
-.dig_mapa {
+.dig_mapa_borda {
     border-radius: 16px;
     background-color: #D6F1EC;
     padding: 4px;
     margin: 12px auto;
 
-    .dig_mapa_section {
+    .dig_mapa_section_2 {
         margin: 0;
         font-family: $fontName;
         font-size: 1.375rem;
         text-align: left;
         overflow: hidden;
+        border-radius: 16px;
         position: relative;
         background-color: white;
 
         .image_phases {
             margin: 0 auto;
+            border-radius: 16px;
         }
     }
 
-    .dig_mapa_section::first-child {
+    .dig_mapa_section_2::first-child {
         margin-top: 0;
     }
 
-    .dig_mapa_title {
+    .dig_mapa_title_2 {
         position: relative;
         width: fit-content;
         display: flex;
@@ -31,7 +33,7 @@
         padding: 16px 24px;
         border-radius: 16px 16px 0 0;
 
-        .mapa_title {
+        .mapa_title_2 {
             font-family: $fontName;
             font-weight: bold;
             font-size: 27px;
