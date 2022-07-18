@@ -641,6 +641,9 @@
       "directiveOptions": {
         "text": {
           "stripStylingOnPaste": true
+        },
+        "title": {
+          "stripStylingOnPaste": true
         }
       }
     },
@@ -3707,7 +3710,7 @@
       "label": "Containers",
       "name": "containers",
       "components": [
-        "background",
+        
         "secao_para_aprofundar",
         "secao_para_consolidar",
         "secao_produzir_e_compartilhar",
@@ -3967,6 +3970,7 @@
       },
       "name": "layout",
       "components": [
+        "background",
         "container",
         "container_nivel1",
         "container_nivel2",

@@ -48,7 +48,61 @@
       background-color: $seg_mat_cor1;
     }
   }
+  &.matematica {
+    .legenda_icon {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_MAT.svg);
 
+    }
+  }
+
+  &.artes {
+    .legenda_icon {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_ART.svg);
+
+    }
+  }
+
+  &.lingua_portuguesa {
+    .legenda_icon {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_LPO.svg);
+
+    }
+  }
+
+  &.lingua_inglesa {
+    .legenda_icon {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_ING.svg);
+
+    }
+  }
+
+  &.historia {
+    .legenda_icon {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_HIS.svg);
+
+    }
+  }
+
+  &.geografia {
+    .legenda_icon {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_GEO.svg);
+
+    }
+  }
+
+  &.ciencias {
+    .legenda_icon {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_CIE.svg);
+
+    }
+  }
+
+  &.lingua_inglesa {
+    .legenda_icon {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/phases/05_legenda_ING.svg);
+
+    }
+  }
   &._left {
     margin-left: 0px;
   }

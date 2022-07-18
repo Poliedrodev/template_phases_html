@@ -29,7 +29,7 @@
   }
 
   .num_unidade {
-    width: 134px;
+    min-width: 134px;
     background-color: #666666;
     border: 10px solid #FFFFFF;
     position: relative;
@@ -56,7 +56,11 @@
     background-color: #102694;
     border-radius: 0px 16px 16px 0;
     width: fit-content;
-    padding: 26px 35px;
+    padding: 0px 35px;
+    align-items: center;
+    display: flex;
+    min-height: 116px;
+    
 
     .texto_unidade {
       font-family: $fontTitle;
@@ -64,8 +68,8 @@
       font-weight: 700;
       text-align: left;
       color: #FFFFFF;
-      text-transform: uppercase;
       padding-left: 30px;
+      line-height: 1.4;
     }
   }
 
@@ -145,10 +149,71 @@
       background-color: $mat_cor1;
     }
   }
-  @media only screen and (max-width: $phone-max-width) {
-
-  }
-    
   
+}
+
+@media only screen and (max-width: $phone-max-width) {
+  .dig_titulo_capitulo_abre .back_unidade {
+    height: 18px;
+    width: 52px;
+    top: -10px;
+    left: 14px;
+  }
+  .dig_titulo_capitulo_abre .back_unidade .unidade {
+    font-size: 10px;
+  }
+
+  .dig_titulo_capitulo_abre .num_unidade { 
+    max-height: 70px;
+    min-width: 70px;
+    border: 6px solid #FFFFFF;
+  }
+  .dig_titulo_capitulo_abre .num_unidade .number_unidade { 
+    font-size: 60px;
+    margin-top: 0px;
+  }
+
+  .dig_titulo_capitulo_abre .dig_titulo_text {
+    padding: 3px 1px;
+    left: -20px;
+    min-height: 54px;
+  }
+  .dig_titulo_capitulo_abre .dig_titulo_text .texto_unidade {
+    padding-left: 30px;
+    font-size:16px;
+  }
+
+}
+
+@media only screen and (min-width: $phone-max-width) and (max-width: 768px){
+  .dig_titulo_capitulo_abre .back_unidade {
+    height: 18px;
+    width: 52px;
+    top: -10px;
+    left: 14px;
+  }
+  .dig_titulo_capitulo_abre .back_unidade .unidade {
+    font-size: 10px;
+  }
+
+  .dig_titulo_capitulo_abre .num_unidade { 
+    max-height: 70px;
+    min-width: 70px;
+    border: 6px solid #FFFFFF;
+  }
+  .dig_titulo_capitulo_abre .num_unidade .number_unidade { 
+    font-size: 60px;
+    margin-top: 0px;
+  }
+
+  .dig_titulo_capitulo_abre .dig_titulo_text {
+    padding: 0px 6px;
+    left: -20px;
+    height: 70px;
+  }
+  .dig_titulo_capitulo_abre .dig_titulo_text .texto_unidade {
+    padding-left: 30px;
+    font-size:17px;
+  }
 
 }
